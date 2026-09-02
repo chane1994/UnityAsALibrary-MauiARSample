@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.unity3d.player.unityLibrary-release-3:/raw/keep_arcore.xml",
+        "source": "com.unity3d.player.unityLibrary-jetified-arcore_client-0:/raw/keep_arcore.xml"
+    }
+]

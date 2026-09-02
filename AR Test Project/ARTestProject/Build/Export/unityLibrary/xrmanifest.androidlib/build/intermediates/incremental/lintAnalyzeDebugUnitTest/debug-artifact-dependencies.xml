@@ -1,0 +1,14 @@
+<dependencies>
+  <compile
+      roots=":@@:unityLibrary:xrmanifest.androidlib::debug">
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::debug"
+        simpleName="Export.unityLibrary:xrmanifest.androidlib"/>
+  </compile>
+  <package
+      roots=":@@:unityLibrary:xrmanifest.androidlib::debug">
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::debug"
+        simpleName="Export.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

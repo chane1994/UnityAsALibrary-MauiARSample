@@ -1,0 +1,64 @@
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/AndroidManifest.xml:29: Warning: <uses-permission> tag appears after <application> tag [ManifestOrder]
+  <uses-permission android:name="android.permission.CAMERA" />
+   ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ManifestOrder":
+   The <application> tag should appear after the elements which declare which
+   version you need, which features you need, which libraries you need, and so
+   on. In the past there have been subtle bugs (such as themes not getting
+   applied correctly) when the <application> tag appears before some of these
+   other elements, so it's best to order your manifest in the logical
+   dependency order.
+
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java:119: Warning: Switch statement on an int with known associated constant missing case ComponentCallbacks2.TRIM_MEMORY_BACKGROUND, ComponentCallbacks2.TRIM_MEMORY_COMPLETE, ComponentCallbacks2.TRIM_MEMORY_MODERATE, ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN [SwitchIntDef]
+        switch (level)
+        ~~~~~~
+
+   Explanation for issues of type "SwitchIntDef":
+   This check warns if a switch statement does not explicitly include all the
+   values declared by the typedef @IntDef declaration.
+
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/AndroidManifest.xml:19: Warning: Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios. [DiscouragedApi]
+    <activity tools:node="replace" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:enabled="true" android:exported="true" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerActivity" android:resizeableActivity="false" android:screenOrientation="fullUser" android:theme="@style/UnityThemeSelector">
+                                                                                                                                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/AndroidManifest.xml:19: Warning: Setting resizeableActivity to false will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios. [DiscouragedApi]
+    <activity tools:node="replace" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:enabled="true" android:exported="true" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerActivity" android:resizeableActivity="false" android:screenOrientation="fullUser" android:theme="@style/UnityThemeSelector">
+                                                                                                                                                                                                                                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java:157: Warning: Use @RequiresApi(Build.VERSION_CODES.M) instead of @TargetApi` to propagate the requirement to callers of requestPermissions [UseRequiresApi]
+    @TargetApi(Build.VERSION_CODES.M)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseRequiresApi":
+   The @TargetApi annotation only suppresses API warnings locally.
+   @RequiresApi on the other hand will propagate the requirement out to any
+   callers of this API, making sure that they either perform API level checks
+   (using for example SDK_INT), or defining @RequiresApi annotations
+   themselves.
+
+   (The @TargetApi annotation predates @RequiresApi, and was introduced as an
+   early way to suppress lint API warnings for a particular API level.
+   Accidentally using @TargetApi can lead to crashes since there is no check
+   that other calls to this method actually check that the call is safe.)
+
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java:157: Warning: Unnecessary; SDK_INT is always >= 23 [ObsoleteSdkInt]
+    @TargetApi(Build.VERSION_CODES.M)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values-v21: Warning: This folder configuration (v21) is unnecessary; minSdkVersion is 34. Merge all the resources in this folder into values. [ObsoleteSdkInt]
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values-v30: Warning: This folder configuration (v30) is unnecessary; minSdkVersion is 34. Merge all the resources in this folder into values. [ObsoleteSdkInt]
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values-v31: Warning: This folder configuration (v31) is unnecessary; minSdkVersion is 34. Merge all the resources in this folder into values. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+0 errors, 9 warnings

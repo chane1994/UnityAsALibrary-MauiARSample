@@ -1,0 +1,50 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar:unspecified@jar,:arcore_client:@aar,:ARPresto:@aar,:UnityARCore:@aar,:unityandroidpermissions:@aar,:@@:unityLibrary:xrmanifest.androidlib::debug,androidx.games:games-frame-pacing:1.10.0@aar">
+    <dependency
+        name="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar"/>
+    <dependency
+        name=":arcore_client:@aar"
+        simpleName=":arcore_client"/>
+    <dependency
+        name=":ARPresto:@aar"
+        simpleName=":ARPresto"/>
+    <dependency
+        name=":UnityARCore:@aar"
+        simpleName=":UnityARCore"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"
+        simpleName=":unityandroidpermissions"/>
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::debug"
+        simpleName="Export.unityLibrary:xrmanifest.androidlib"/>
+    <dependency
+        name="androidx.games:games-frame-pacing:1.10.0@aar"
+        simpleName="androidx.games:games-frame-pacing"/>
+  </compile>
+  <package
+      roots="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar:unspecified@jar,:arcore_client:@aar,:ARPresto:@aar,:UnityARCore:@aar,:unityandroidpermissions:@aar,:@@:unityLibrary:xrmanifest.androidlib::debug,androidx.games:games-frame-pacing:1.10.0@aar">
+    <dependency
+        name="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/libs/unity-classes.jar"/>
+    <dependency
+        name=":arcore_client:@aar"
+        simpleName=":arcore_client"/>
+    <dependency
+        name=":ARPresto:@aar"
+        simpleName=":ARPresto"/>
+    <dependency
+        name=":UnityARCore:@aar"
+        simpleName=":UnityARCore"/>
+    <dependency
+        name=":unityandroidpermissions:@aar"
+        simpleName=":unityandroidpermissions"/>
+    <dependency
+        name=":@@:unityLibrary:xrmanifest.androidlib::debug"
+        simpleName="Export.unityLibrary:xrmanifest.androidlib"/>
+    <dependency
+        name="androidx.games:games-frame-pacing:1.10.0@aar"
+        simpleName="androidx.games:games-frame-pacing"/>
+  </package>
+</dependencies>

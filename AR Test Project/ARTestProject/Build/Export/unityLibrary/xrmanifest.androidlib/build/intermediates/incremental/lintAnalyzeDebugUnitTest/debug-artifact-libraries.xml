@@ -1,0 +1,15 @@
+<libraries>
+  <library
+      name=":@@:unityLibrary:xrmanifest.androidlib::debug"
+      jars="/Users/futurus/.gradle/caches/9.1.0/transforms/fb6129a57e7a6eddf868f340774d88e5/transformed/out/jars/classes.jar:/Users/futurus/.gradle/caches/9.1.0/transforms/fb6129a57e7a6eddf868f340774d88e5/transformed/out/jars/libs/R.jar"
+      resolved="Export.unityLibrary:xrmanifest.androidlib:unspecified"
+      folder="/Users/futurus/.gradle/caches/9.1.0/transforms/fb6129a57e7a6eddf868f340774d88e5/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

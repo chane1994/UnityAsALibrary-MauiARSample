@@ -1,0 +1,222 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.unity3d.player.unityLibrary-release-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/freeformwindow.xml",
+                    "from": {
+                        "startLines": "5,6,2,4,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "221,286,55,167,112",
+                        "endColumns": "64,63,56,53,54",
+                        "endOffsets": "281,345,107,216,162"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "351,408,464,513,559",
+                        "endColumns": "56,55,48,45,46",
+                        "endOffsets": "403,459,508,554,601"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1052",
+                        "endColumns": "67",
+                        "endOffsets": "1115"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/.gradle/caches/9.1.0/transforms/607e3a72d4d22026edae8f9988b0e005/transformed/jetified-arcore_client/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "606,657,712,838,964",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "652,707,833,959,1047"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "305",
+                        "endColumns": "45",
+                        "endOffsets": "346"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,6",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "194,53,285",
+                        "endLines": "5,4,9",
+                        "endColumns": "90,10,10",
+                        "endOffsets": "282,191,509"
+                    },
+                    "to": {
+                        "startLines": "17,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1120,1212,1355",
+                        "endLines": "17,20,24",
+                        "endColumns": "91,10,10",
+                        "endOffsets": "1207,1350,1579"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "53,210,121",
+                        "endColumns": "67,86,88",
+                        "endOffsets": "118,294,207"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,214",
+                        "endColumns": "69,88,90",
+                        "endOffsets": "120,209,300"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.unity3d.player.unityLibrary-mergeReleaseResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/freeformwindow.xml",
+                    "from": {
+                        "startLines": "5,6,2,4,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "221,286,55,167,112",
+                        "endColumns": "64,63,56,53,54",
+                        "endOffsets": "281,345,107,216,162"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "351,408,464,513,559",
+                        "endColumns": "56,55,48,45,46",
+                        "endOffsets": "403,459,508,554,601"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1052",
+                        "endColumns": "67",
+                        "endOffsets": "1115"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/.gradle/caches/9.1.0/transforms/607e3a72d4d22026edae8f9988b0e005/transformed/jetified-arcore_client/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "606,657,712,838,964",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "652,707,833,959,1047"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "305",
+                        "endColumns": "45",
+                        "endOffsets": "346"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,6",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "194,53,285",
+                        "endLines": "5,4,9",
+                        "endColumns": "90,10,10",
+                        "endOffsets": "282,191,509"
+                    },
+                    "to": {
+                        "startLines": "17,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1120,1212,1355",
+                        "endLines": "17,20,24",
+                        "endColumns": "91,10,10",
+                        "endOffsets": "1207,1350,1579"
+                    }
+                },
+                {
+                    "source": "/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "53,210,121",
+                        "endColumns": "67,86,88",
+                        "endOffsets": "118,294,207"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,214",
+                        "endColumns": "69,88,90",
+                        "endOffsets": "120,209,300"
+                    }
+                }
+            ]
+        }
+    ]
+}

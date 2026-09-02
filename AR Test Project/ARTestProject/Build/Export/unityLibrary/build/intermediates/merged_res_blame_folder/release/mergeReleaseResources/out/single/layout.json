@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.unity3d.player.unityLibrary-release-3:/layout/__arcore_education.xml",
+        "source": "com.unity3d.player.unityLibrary-jetified-arcore_client-0:/layout/__arcore_education.xml"
+    }
+]

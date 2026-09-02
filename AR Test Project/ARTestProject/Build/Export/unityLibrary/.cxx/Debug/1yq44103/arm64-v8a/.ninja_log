@@ -1,0 +1,13 @@
+# ninja log v5
+0	851	1788293632665127605	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d6b78835929adb30
+852	1180	1788293632994116767	/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/cxx/Debug/1yq44103/obj/arm64-v8a/libswappywrapper.so	5351c719e9b3b4b
+0	20	0	clean	63108bb15f962f64
+1	578	1788297457252970299	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d6b78835929adb30
+578	858	1788297457531841414	/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/cxx/Debug/1yq44103/obj/arm64-v8a/libswappywrapper.so	5351c719e9b3b4b
+0	21	0	clean	63108bb15f962f64
+1	16	0	clean	63108bb15f962f64
+1	517	1788297963332994969	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d6b78835929adb30
+518	821	1788297963636856902	/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/cxx/Debug/1yq44103/obj/arm64-v8a/libswappywrapper.so	5351c719e9b3b4b
+0	15	0	clean	63108bb15f962f64
+0	665	1788298033244629254	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d6b78835929adb30
+666	975	1788298033555668213	/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/cxx/Debug/1yq44103/obj/arm64-v8a/libswappywrapper.so	5351c719e9b3b4b

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.0.0" type="conditional_incidents">
+
+    <incident
+        id="NonResizeableActivity"
+        severity="warning"
+        message="Expecting `android:resizeableActivity=&quot;true&quot;` for this activity so the user can take advantage of the multi-window environment on all devices. NOTE: beginning with Android 12, all apps run in multi-window mode on large screen devices.">
+        <fix-attribute
+            description="Set resizeableActivity=&quot;true&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="resizeableActivity"
+            value="true"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="387"
+            startOffset="1870"
+            endLine="19"
+            endColumn="421"
+            endOffset="1904"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="PermissionImpliesUnsupportedChromeOsHardware"
+        severity="error"
+        message="Permission exists without corresponding hardware `&lt;uses-feature android:name=&quot;android.hardware.camera&quot; required=&quot;false&quot;>` tag">
+        <fix-data featureName="android.hardware.camera"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="29"
+            column="4"
+            startOffset="2984"
+            endLine="29"
+            endColumn="19"
+            endOffset="2999"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 23">
+        <fix-replace
+            description="Delete @TargetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+                startOffset="5345"
+                endOffset="5378"/>
+        </fix-replace>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+            line="157"
+            column="5"
+            startOffset="5345"
+            endLine="157"
+            endColumn="38"
+            endOffset="5378"/>
+        <map>
+            <condition minGE="23-∞"/>
+        </map>
+    </incident>
+
+</incidents>

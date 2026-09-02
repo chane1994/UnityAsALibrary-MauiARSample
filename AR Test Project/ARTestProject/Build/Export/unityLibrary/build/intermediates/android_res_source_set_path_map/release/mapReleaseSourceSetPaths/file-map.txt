@@ -1,0 +1,9 @@
+com.unity3d.player.unityLibrary-jetified-arcore_client-0 /Users/futurus/.gradle/caches/9.1.0/transforms/607e3a72d4d22026edae8f9988b0e005/transformed/jetified-arcore_client/res
+com.unity3d.player.unityLibrary-pngs-1 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/generated/res/pngs/release
+com.unity3d.player.unityLibrary-updated_navigation_xml-2 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/generated/updated_navigation_xml/release
+com.unity3d.player.unityLibrary-mergeReleaseResources-3 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.unity3d.player.unityLibrary-mergeReleaseResources-4 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.unity3d.player.unityLibrary-release-5 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/build/intermediates/merged_res/release/mergeReleaseResources
+com.unity3d.player.unityLibrary-main-6 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/main/res
+com.unity3d.player.unityLibrary-release-7 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/src/release/res
+com.unity3d.player.unityLibrary-release-8 /Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/xrmanifest.androidlib/build/intermediates/packaged_res/release/packageReleaseResources

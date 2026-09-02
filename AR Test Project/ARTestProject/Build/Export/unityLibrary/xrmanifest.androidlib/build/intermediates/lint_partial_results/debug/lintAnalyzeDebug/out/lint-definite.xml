@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.0.0" type="incidents">
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.unity3d.player.UnityPlayerActivity`, was not found in the project or the libraries">
+        <location
+            file="${:unityLibrary:xrmanifest.androidlib*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="4"
+            column="29"
+            startOffset="197"
+            endLine="4"
+            endColumn="67"
+            endOffset="235"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 37"
+            oldString="36"
+            replacement="37"
+            priority="0"/>
+        <location
+            file="${:unityLibrary:xrmanifest.androidlib*projectDir}/build.gradle"
+            line="15"
+            column="9"
+            startOffset="332"
+            endLine="15"
+            endColumn="21"
+            endOffset="344"/>
+    </incident>
+
+</incidents>

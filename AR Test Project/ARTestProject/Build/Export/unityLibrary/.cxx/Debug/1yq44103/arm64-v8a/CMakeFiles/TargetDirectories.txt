@@ -1,0 +1,5 @@
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/.cxx/Debug/1yq44103/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/.cxx/Debug/1yq44103/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/.cxx/Debug/1yq44103/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/.cxx/Debug/1yq44103/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/futurus/wkspaces/AR Test Project/ARTestProject/Build/Export/unityLibrary/.cxx/Debug/1yq44103/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.0.0" type="incidents">
+
+    <incident
+        id="ManifestOrder"
+        severity="warning"
+        message="`&lt;uses-permission>` tag appears after `&lt;application>` tag">
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="29"
+            column="4"
+            startOffset="2984"
+            endLine="29"
+            endColumn="19"
+            endOffset="2999"/>
+    </incident>
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `ComponentCallbacks2.TRIM_MEMORY_BACKGROUND`, `ComponentCallbacks2.TRIM_MEMORY_COMPLETE`, `ComponentCallbacks2.TRIM_MEMORY_MODERATE`, `ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN`">
+        <fix-data cases="android.content.ComponentCallbacks2.TRIM_MEMORY_BACKGROUND, android.content.ComponentCallbacks2.TRIM_MEMORY_COMPLETE, android.content.ComponentCallbacks2.TRIM_MEMORY_MODERATE, android.content.ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+            line="119"
+            column="9"
+            startOffset="4003"
+            endLine="119"
+            endColumn="15"
+            endOffset="4009"/>
+    </incident>
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.">
+        <show-url
+            description="Show https://developer.android.com/adaptive-apps"
+            url="https://developer.android.com/adaptive-apps"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="422"
+            startOffset="1905"
+            endLine="19"
+            endColumn="458"
+            endOffset="1941"/>
+    </incident>
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Setting `resizeableActivity` to `false` will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.">
+        <show-url
+            description="Show https://developer.android.com/adaptive-apps"
+            url="https://developer.android.com/adaptive-apps"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="387"
+            startOffset="1870"
+            endLine="19"
+            endColumn="421"
+            endOffset="1904"/>
+    </incident>
+
+    <incident
+        id="UseRequiresApi"
+        severity="warning"
+        message="Use `@RequiresApi(Build.VERSION_CODES.M) instead of `@TargetApi` to propagate the requirement to callers of `requestPermissions`">
+        <fix-replace
+            description="Replace with `@RequiresApi`"
+            robot="true"
+            independent="true"
+            oldPattern="(TargetApi)"
+            replacement="androidx.annotation.RequiresApi"
+            shortenNames="true"
+            priority="0"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+            line="157"
+            column="5"
+            startOffset="5345"
+            endLine="157"
+            endColumn="38"
+            endOffset="5378"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 34. Merge all the resources in this folder into `values`.">
+        <fix-data file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v21" folderName="values" requiresApi="34"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v21"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v30`) is unnecessary; `minSdkVersion` is 34. Merge all the resources in this folder into `values`.">
+        <fix-data file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v30" folderName="values" requiresApi="34"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v30"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v31`) is unnecessary; `minSdkVersion` is 34. Merge all the resources in this folder into `values`.">
+        <fix-data file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v31" folderName="values" requiresApi="34"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v31"/>
+    </incident>
+
+</incidents>

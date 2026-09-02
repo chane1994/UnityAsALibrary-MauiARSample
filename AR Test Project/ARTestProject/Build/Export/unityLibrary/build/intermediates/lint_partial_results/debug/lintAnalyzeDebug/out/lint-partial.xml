@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.0.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.unity3d.player.UnityPlayerActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.FreeformWindowOrientation_landscape"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/freeformwindow.xml"
+            line="6"
+            column="13"
+            startOffset="229"
+            endLine="6"
+            endColumn="55"
+            endOffset="271"/>
+        <location id="R.string.FreeformWindowOrientation_portrait"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/freeformwindow.xml"
+            line="7"
+            column="13"
+            startOffset="294"
+            endLine="7"
+            endColumn="54"
+            endOffset="335"/>
+        <location id="R.string.FreeformWindowSize_maximize"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/freeformwindow.xml"
+            line="3"
+            column="13"
+            startOffset="63"
+            endLine="3"
+            endColumn="47"
+            endOffset="97"/>
+        <location id="R.string.FreeformWindowSize_phone"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/freeformwindow.xml"
+            line="5"
+            column="13"
+            startOffset="175"
+            endLine="5"
+            endColumn="44"
+            endOffset="206"/>
+        <location id="R.string.FreeformWindowSize_tablet"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/freeformwindow.xml"
+            line="4"
+            column="13"
+            startOffset="120"
+            endLine="4"
+            endColumn="45"
+            endOffset="152"/>
+        <location id="R.string.game_view_content_description"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="11"
+            startOffset="61"
+            endLine="3"
+            endColumn="47"
+            endOffset="97"/>
+        <location id="R.style.UnityThemeSelector_Translucent"
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values/styles.xml"
+            line="7"
+            column="10"
+            startOffset="292"
+            endLine="7"
+            endColumn="47"
+            endOffset="329"/>
+        <entry
+            name="model"
+            string="color[staticSplashScreenBackgroundColor(U),windowSplashScreenIconBackgroundColor(U),windowSplashScreenAnimatedIconColor(U)],id[unitySurfaceView(D)],string[FreeformWindowSize_maximize(D),FreeformWindowSize_tablet(D),FreeformWindowSize_phone(D),FreeformWindowOrientation_landscape(D),FreeformWindowOrientation_portrait(D),game_view_content_description(D)],style[UnityThemeSelector(U),BaseUnityTheme(U),UnityThemeSelector_Translucent(D)];a^b,b^2^0^1,c^a;;;"/>
+    </map>
+
+</incidents>
